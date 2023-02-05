@@ -1,0 +1,41 @@
+/*.col {
+	background-color: grey;
+	border: 2px solid black;
+}
+*/
+
+
+.btn-primary {
+	background-color: green;
+}
+
+.btn-primary:hover {
+	background-color: purple;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h1{
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 3em;
+	border-bottom: 2px solid grey;
+	width: 500px;
+	border-right: 2px solid grey;
+	box-shadow: 4px 4px 0 #8888;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.2);
+}
